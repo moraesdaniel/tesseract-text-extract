@@ -4,7 +4,7 @@ Esse projeto utiliza a biblioteca Tesseract com Python para extrair textos de im
 ## Ambiente
 ### Imagem do container
 Ao escolher a imagem do Python, tentei escolher a mais leve que atendesse aos requisitos.
-Tentei levantar sobre a imagem `python:3.10-slim` e `python:3.10-alpine`, porém, em ambas, tive dificuldades para compilar e instalar a biblioteca `numpy`.
+Tentei levantar sobre a imagem `python:3.10-slim` e `python:3.10-alpine`, porém, em ambas, tive dificuldades para compilar e instalar a biblioteca `numpy`.</br>
 Nas imagens `slim-buster`, `buster` e `bullseye`, funcionou perfeitamente. Contudo, escolhi a `slim-buster` devido ao critério que citei anteriormente, por ser mais leve.
 ### Bliblioteca libgl1
 Mesmo escolhendo a imagem slim-buster, ainda aconteciam erros ao compilar e instalar a `numpy`. Instalando a `libgl1`, esses erros foram sanados.
@@ -17,10 +17,10 @@ Para obter nossa imagem personalizada, basta utilizarmos o comando `docker build
 Substitua text-extract:latest, pelo nome e a tag que desejar. Só não esqueça de alterar depois o docker-compose.yaml também.
 
 ## Container
-Está no projeto também um arquivo *docker-compose.yaml*, que nos ajudará a subir o container.
-Esse container foi construído para ser usado em ambientes de desenvolvimento.
-Nele usamos o comando sleep para manter o container em pé e podermos conectar nele para realizar nossos testes.
-Compartilhamos também a pasta `src` do nosso host com a `/var/www` do container pelo mesmo motivo, podermos fazer alterações locais e testá-las de imediato dentro do container.
+Está no projeto também um arquivo *docker-compose.yaml*, que nos ajudará a subir o container.</br>
+Esse container foi construído para ser usado em ambientes de desenvolvimento.</br>
+Nele usamos o comando sleep para manter o container em pé e podermos conectar nele para realizar nossos testes.</br>
+Compartilhamos também a pasta `src` do nosso host com a `/var/www` do container pelo mesmo motivo, podermos fazer alterações locais e testá-las de imediato dentro do container.</br>
 Para subir o container, basta utilizar o bom e velho `docker-compose up -d`.
 
 ## Código fonte
