@@ -1,4 +1,4 @@
-[[_TOC_]]
+[1. Ambiente](#ambiente)
 
 # Tesseract TextExtract
 Esse projeto utiliza a biblioteca Tesseract com Python para extrair textos de imagens.
