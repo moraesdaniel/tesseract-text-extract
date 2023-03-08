@@ -31,8 +31,8 @@ Depois bastou submeter a imagem ao pytesseract (`pytesseract.image_to_string`), 
 
 Com o resultado da leitura em mãos, podemos realizar várias tarefas, procurar termos com regex é uma delas. Agora basta você dar o destino que quiser para essas informações.
 
-**Fontes:**</br>
+## Fontes:
 [Como transformar imagem em texto usando o OCR em Python com OpenCV, Tesseract reconhecendo caracteres](https://youtu.be/GMqFZ7f0dy4)
-(OCR com Tesseract e Python)[https://youtu.be/MfKvjWrcdaY]
-(Erro ao compilar o numpy)[https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo]
-(Como instalo um novo pacote de idiomas para o Tesseract)[https://sobrelinux.info/questions/13937/how-do-i-install-a-new-language-pack-for-tesseract-on-16-04]
+[OCR com Tesseract e Python](https://youtu.be/MfKvjWrcdaY)
+[Erro ao compilar o numpy](https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo)
+[Como instalo um novo pacote de idiomas para o Tesseract](https://sobrelinux.info/questions/13937/how-do-i-install-a-new-language-pack-for-tesseract-on-16-04)
