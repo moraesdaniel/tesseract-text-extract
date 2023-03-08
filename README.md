@@ -1,7 +1,7 @@
 [1. Ambiente](#ambiente)</br>
-&nbsp;&nbsp;[1.1 Imagem do Container](#imagem-do-container)</br>
-&nbsp;&nbsp;[1.2 Bliblioteca libgl](#bliblioteca-libgl1)</br>
-&nbsp;&nbsp;[1.3 Biblioteca Tesseract OCR](#bliblioteca-tesseract-ocr)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;[1.1 Imagem do Container](#imagem-do-container)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;[1.2 Bliblioteca libgl](#bliblioteca-libgl1)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;[1.3 Biblioteca Tesseract OCR](#bliblioteca-tesseract-ocr)</br>
 [2. Container](#container)</br>
 [3. Código Fonte](#código-fonte)</br>
 [4. Fontes](#fontes)</br>
