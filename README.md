@@ -1,4 +1,6 @@
-**Table of contents**
+# Tesseract TextExtract
+Esse projeto utiliza a biblioteca Tesseract com Python para extrair textos de imagens.
+**Table of contents**</br>
 [1.0 - Ambiente](#ambiente)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;[1.1 - Imagem do Container](#imagem-do-container)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;[1.2 - Bliblioteca libgl](#bliblioteca-libgl1)</br>
@@ -6,9 +8,6 @@
 [2.0 - Container](#container)</br>
 [3.0 - Código Fonte](#código-fonte)</br>
 [4.0 - Fontes](#fontes)</br>
-
-# Tesseract TextExtract
-Esse projeto utiliza a biblioteca Tesseract com Python para extrair textos de imagens.
 
 ## Ambiente
 ### Imagem do Container
