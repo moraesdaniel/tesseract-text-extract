@@ -1,10 +1,16 @@
 [1. Ambiente](#ambiente)
+[1.1 Imagem do Container](#imagem-do-container)
+[1.2 Bliblioteca libgl](#bliblioteca-libgl1)
+[1.3 Biblioteca Tesseract OCR](#bliblioteca-tesseract-ocr)
+[2. Container](#container)
+[3. Código Fonte](#código-fonte)
+[4. Fontes](#fontes)
 
 # Tesseract TextExtract
 Esse projeto utiliza a biblioteca Tesseract com Python para extrair textos de imagens.
 
 ## Ambiente
-### Imagem do container
+### Imagem do Container
 Ao escolher a imagem do Python, tentei escolher a mais leve que atendesse aos requisitos.
 Tentei levantar sobre a imagem `python:3.10-slim` e `python:3.10-alpine`, porém, em ambas, tive dificuldades para compilar e instalar a biblioteca `numpy`.</br>
 Nas imagens `slim-buster`, `buster` e `bullseye`, funcionou perfeitamente. Contudo, escolhi a `slim-buster` devido ao critério que citei anteriormente, por ser mais leve.
@@ -25,7 +31,7 @@ Nele usamos o comando sleep para manter o container em pé e podermos conectar n
 Compartilhamos também a pasta `src` do nosso host com a `/var/www` do container pelo mesmo motivo, podermos fazer alterações locais e testá-las de imediato dentro do container.</br>
 Para subir o container, basta utilizar o bom e velho `docker-compose up -d`.
 
-## Código fonte
+## Código Fonte
 O código fonte é muito simples.</br>
 No início tem um comando bônus que vai nos mostrar as linguagens disponíveis na versão da biblioteca que instalamos.</br>
 Primeiro utilizei o opencv para ler a imagem (`cv2.imread`).</br>
