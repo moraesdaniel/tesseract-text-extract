@@ -1,5 +1,5 @@
 # Tesseract TextExtract
-Esse projeto utiliza a biblioteca Tesseract com Python para extrair textos de imagens.
+Esse projeto utiliza a biblioteca Tesseract com Python para extrair textos de imagens.</br>
 **Table of contents**</br>
 [1.0 - Ambiente](#ambiente)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;[1.1 - Imagem do Container](#imagem-do-container)</br>
