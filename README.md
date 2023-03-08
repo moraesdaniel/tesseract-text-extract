@@ -23,7 +23,7 @@ Nele usamos o comando sleep para manter o container em pé e podermos conectar n
 Compartilhamos também a pasta `src` do nosso host com a `/var/www` do container pelo mesmo motivo, podermos fazer alterações locais e testá-las de imediato dentro do container.
 Para subir o container, basta utilizar o bom e velho `docker-compose up -d`.
 
-##Código fonte
+## Código fonte
 O código fonte é muito simples.
 No início tem um comando bônus que vai nos mostrar as linguagens disponíveis na versão da biblioteca que instalamos.
 Primeiro utilizei o opencv para ler a imagem (`cv2.imread`).
