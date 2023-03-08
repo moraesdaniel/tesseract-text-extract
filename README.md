@@ -1,10 +1,14 @@
-[1. Ambiente](#ambiente)
-[1.1 Imagem do Container](#imagem-do-container)
-[1.2 Bliblioteca libgl](#bliblioteca-libgl1)
-[1.3 Biblioteca Tesseract OCR](#bliblioteca-tesseract-ocr)
-[2. Container](#container)
-[3. Código Fonte](#código-fonte)
-[4. Fontes](#fontes)
+<ul>
+    <li>[1. Ambiente](#ambiente)</li>
+    <ul>
+        <li>[1.1 Imagem do Container](#imagem-do-container)</li>
+        <li>[1.2 Bliblioteca libgl](#bliblioteca-libgl1)</li>
+        <li>[1.3 Biblioteca Tesseract OCR](#bliblioteca-tesseract-ocr)</li>
+    </ul>
+    <li>[2. Container](#container)</li>
+    <li>[3. Código Fonte](#código-fonte)</li>
+    <li>[4. Fontes](#fontes)</li>
+</ul>
 
 # Tesseract TextExtract
 Esse projeto utiliza a biblioteca Tesseract com Python para extrair textos de imagens.
