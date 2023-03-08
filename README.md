@@ -24,9 +24,9 @@ Compartilhamos também a pasta `src` do nosso host com a `/var/www` do container
 Para subir o container, basta utilizar o bom e velho `docker-compose up -d`.
 
 ## Código fonte
-O código fonte é muito simples.
+O código fonte é muito simples.</br>
 No início tem um comando bônus que vai nos mostrar as linguagens disponíveis na versão da biblioteca que instalamos.</br>
-Primeiro utilizei o opencv para ler a imagem (`cv2.imread`).
+Primeiro utilizei o opencv para ler a imagem (`cv2.imread`).</br>
 Depois bastou submeter a imagem ao pytesseract (`pytesseract.image_to_string`), passando o parâmetro `lang='por'` para que a leitura reconheça caracteres da língua portuguesa, e exibir o resultado.
 
 Com o resultado da leitura em mãos, podemos realizar várias tarefas, procurar termos com regex é uma delas. Agora basta você dar o destino que quiser para essas informações.
